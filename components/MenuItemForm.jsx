@@ -26,7 +26,7 @@ export default function MenuItemForm({ onSubmit, menuItem }) {
   }, [])
 
   return (
-    <div className="w-full flex justify-center items-center text-center flex-col gap-8">
+    <div className="w-full flex justify-center items-center text-center flex-col gap-8 bg-black/50 max-w-6xl mx-auto px-12 rounded-lg py-6">
       <h2 className="text-4xl font-semibold my-8">Add Product</h2>
       <form
         onSubmit={(ev) =>

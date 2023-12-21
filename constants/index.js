@@ -11,32 +11,32 @@ import {
 export const ServiceData = [
     {
         icon: RxCrop,
-        title: "Development",
+        title: "Latop",
         content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
     },
     {
         icon: RxPencil2,
-        title: "Branding",
+        title: "Latop",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
         icon: RxDesktop,
-        title: "Design",
+        title: "Latop",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
         icon: RxReader,
-        title: "Seo",
+        title: "Latop",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
         icon: RxAccessibility,
-        title: "Management",
+        title: "Latop",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
         icon: RxRocket,
-        title: "Production",
+        title: "Latop",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
 ];

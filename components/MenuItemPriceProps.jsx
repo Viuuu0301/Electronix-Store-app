@@ -32,7 +32,7 @@ export default function MenuItemPriceProps({
   }
 
   return (
-    <div className="bg-gray-200 p-2 rounded-md mb-2">
+    <div className="p-2 rounded-md mb-2">
       <button
         onClick={() => setIsOpen((prev) => !prev)}
         className="inline-flex p-1 border-0 justify-start"
@@ -69,7 +69,7 @@ export default function MenuItemPriceProps({
                 <button
                   type="button"
                   onClick={() => removeProp(index)}
-                  className="bg-white mb-2 px-2"
+                  className="bg-black/50 px-4 py-2 mb-2  rounded-md my-4"
                 >
                   <Trash />
                 </button>
@@ -79,7 +79,7 @@ export default function MenuItemPriceProps({
         <button
           type="button"
           onClick={addProp}
-          className="bg-white items-center"
+          className="bg-black/50 px-4 py-2 items-center rounded-md my-4"
         >
           <Plus className="w-4 h-4" />
           <span>{addLabel}</span>
