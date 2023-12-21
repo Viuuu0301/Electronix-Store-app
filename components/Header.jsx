@@ -15,10 +15,13 @@ const Header = () => {
         <Link href="/contact">Contact us</Link>
       </nav>
       <nav className="flex justify-center items-center gap-4">
-        <Link href="/authecation/login" className="text-black/50">
+        <Link href="/login" className="">
           Login
         </Link>
-        <Link href="/sign-up" className=" bg-black/10 hover:bg-black/50">
+        <Link
+          href="/sign-up"
+          className=" bg-black/50 hover:bg-white hover:text-black"
+        >
           Sign Up
         </Link>
       </nav>
